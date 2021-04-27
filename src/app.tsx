@@ -6,7 +6,7 @@ import Logo from './logo.svg';
 export default function app() {
   return (
     <>
-      <h1>React Typescript webpack starter template</h1>
+      <h1>React Typescript webpack starter template - {process.env.NODE_ENV} {process.env.name}</h1>
       <img src={Image} alt="imagen" width="300" />
       <img src={Logo} alt="imagen" width="300" />
 
